@@ -1,0 +1,48 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/my/index",
+    "pages/video/index",
+    "pages/xigua/index"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#7A7E83",
+    "selectedColor": "#FF4A5A",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/image/index.png",
+        "selectedIconPath": "static/image/index_select.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/xigua/index",
+        "iconPath": "static/image/xigua.png",
+        "selectedIconPath": "static/image/xigua_select.png",
+        "text": "西瓜"
+      },
+      {
+        "pagePath": "pages/video/index",
+        "iconPath": "static/image/video.png",
+        "selectedIconPath": "static/image/video_select.png",
+        "text": "小视频"
+      },
+      {
+        "pagePath": "pages/my/index",
+        "iconPath": "static/image/my.png",
+        "selectedIconPath": "static/image/my_select.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "usingComponents": {}
+}

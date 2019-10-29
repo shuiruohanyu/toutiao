@@ -1,0 +1,63 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "今日头条"
+			}
+		}
+	    ,{
+            "path" : "pages/my/index",
+            "style" : {
+				"navigationBarTitleText": "我的"
+			}
+        }
+        ,{
+            "path" : "pages/video/index",
+            "style" : {
+				"navigationBarTitleText": "小视频"
+			}
+        }
+        ,{
+            "path" : "pages/xigua/index",
+            "style" : {
+				"navigationBarTitleText": "西瓜视频"
+			}
+        }
+      
+        
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+	    "color": "#7A7E83",
+	    "selectedColor": "#FF4A5A",
+	    "borderStyle": "black",
+	    "backgroundColor": "#ffffff",
+	    "list": [{
+	        "pagePath": "pages/index/index",
+	        "iconPath": "static/image/index.png",
+	        "selectedIconPath": "static/image/index_select.png",
+	        "text": "首页"
+	    }, {
+	        "pagePath": "pages/xigua/index",
+	        "iconPath": "static/image/xigua.png",
+	        "selectedIconPath": "static/image/xigua_select.png",
+	        "text": "西瓜"
+	    },{
+			"pagePath": "pages/video/index",
+			"iconPath": "static/image/video.png",
+			"selectedIconPath": "static/image/video_select.png",
+			"text": "小视频"
+		},{
+			"pagePath": "pages/my/index",
+			"iconPath": "static/image/my.png",
+			"selectedIconPath": "static/image/my_select.png",
+			"text": "我的"
+		}]
+	}
+}
